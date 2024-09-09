@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ask RnadDevOps Bot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="chat-container">
+        <div id="chatbox">
+            <div id="chat-header">
+                <h2>Renad is here! How can we help you?</h2>
+                <p>Contact: <a href="mailto:rnadjqaim@gmail.com">rnadjqaim@gmail.com</a></p>
+            </div>
+            <div id="chat-messages"></div>
+            <div id="chat-options">
+                <button onclick="askMonthlyCost()">AWS Monthly Cost</button>
+                <button onclick="listS3Buckets()">List S3 Buckets</button>
+                <button onclick="getAccessKeys()">IAM Access Keys</button>
+                <button onclick="analyzeAWS()">Analyze AWS Infrastructure</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
